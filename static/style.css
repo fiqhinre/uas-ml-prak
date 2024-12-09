@@ -1,0 +1,336 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Cormorant Garamond", serif;
+    background-color: rgb(17, 17, 17);
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(17, 17, 17);
+    align-items: center;
+}
+
+.header{
+    background-color: black;
+    height: 140px;
+    width: 1440px;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.logo-header{
+    width: 178px;
+    height: 120px;
+    margin-left: 100px;
+}
+
+.logo-header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-header{
+    width: 676px;
+    background-color: none;
+    margin-left: 437px;
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    color: rgb(208, 172, 123);
+}
+
+.menu-null{
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 300;
+    color: rgb(146, 114, 73);
+}
+
+.home{
+    width: 1280px;
+    margin-top: 50px;
+}
+
+.judul-section{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    color: rgb(208, 172, 123);
+    margin-left: 817px;
+    margin-bottom: 30px;
+}
+
+.content-home-container{
+    background-color: none;
+    width: 1097px;
+    margin-left: 121px;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-poster{
+    width: 285px;
+    height: 430px;
+    border-radius: 10px;
+    background-color: none;
+}
+
+.home-poster img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-text-container{
+    margin-left: 30px;
+    width: 780px;
+    height: 300px;
+    background-color: none;
+}
+
+.text-bold-78{
+    font-size: 78px;
+    font-weight: 700;
+    color: rgb(208, 172, 123);
+}
+
+.line-section{
+    width: 1320px;
+    height: 2px;
+    background-color: rgb(208, 172, 123);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about{
+    width: 1280px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-about{
+    width: 1180px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.text-light-32{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 32px;
+    color: rgb(208, 172, 123);
+}
+
+.about-pict{
+    width: 1180px;
+    height: 640px;
+    margin-left: 50px;
+    background-color: none;
+    margin-top: 20px;
+}
+
+.about-pict img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movies{
+    width: 1280px;
+    background-color: none;
+}
+
+.movie{
+    width: 1280px;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-list-container{
+    width: 640px;
+    background-color: none;
+}
+
+.list-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(208, 172, 123);
+    font-weight: 700;
+}
+
+.movie-list{
+    width: 640px;
+    background-color: none;
+    margin-top: 10px;
+}
+
+.text-light-28{
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(208, 172, 123);
+}
+
+.next-button{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(208, 172, 123, 0.40);
+    border-radius: 10px;
+    margin-left: 1070px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.recommendation{
+    width: 1280px;
+}
+
+.text-med-32{
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(208, 172, 123);
+}
+
+.content-rec-container{
+    width: 1322px;
+    background-color: none;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-container{
+    width: 720px;
+    background-color: none;
+}
+
+.poster-container{
+    width: 552px;
+    background-color: none;
+    margin-left: 50px;
+    display: flex;
+}
+
+.container-kiri{
+    width: 266px;
+    height: 100%;
+    background-color: none;
+}
+
+.container-kanan{
+    width: 266px;
+    height: 100%;
+    background-color: none;
+    margin-left: 20px;
+}
+
+.poster{
+    width: 266px;
+    height: 401px;
+    border-radius: 10px;
+    background-color: silver;
+}
+
+.poster img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.field-input-title{
+    width: 720px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(24, 24, 24);
+    margin-top: 5px;
+}
+
+.field-input-rating{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(24, 24, 24);
+    margin-bottom: 15px;
+}
+
+.rec-button{
+    width: 304px;
+    height: 47px;
+    background-color: rgba(208, 172, 123, 0.40);
+    border-radius: 10px;
+    margin-left: 1070px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer{
+    width: 1280px;
+    background-color: none;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.logo-footer{
+    width: 278px;
+    height: 123px;
+    margin-bottom: 20px;
+}
+
+.logo-footer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sosmed-logo-container{
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.sosmed-footer{
+    width: 30px;
+    height: 30px;
+}
+
+.sosmed-footer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

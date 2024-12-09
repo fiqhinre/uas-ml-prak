@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFDFILMS</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <form action="/result" method="POST">
+        <div class="input-container">
+            <input type="text" name="movie_name" placeholder="kalau bisa copas dari list :)">
+            <input type="number" name="rating" placeholder="1-5" max="5" min="1">
+            <button type="submit">submit</button>
+        </div>
+    </form> -->
+    <div class="body">
+        <div class="header">
+            <div class="logo-header">
+                <img src="{{url_for('static', filename='images/cdfilms.png')}}">
+            </div>
+            <div class="menu-header">
+                <div class="menu">
+                    HOME
+                </div>
+                <div class="menu-null">
+                    ABOUT
+                </div>
+                <div class="menu-null">
+                    MOVIES
+                </div>
+                <div class="menu-null">
+                    RECOMMENDATION
+                </div>
+            </div>
+        </div>
+        <div class="home">
+            <div class="judul-section">
+                MOST FAVORITE STILL
+            </div>
+            <div class="content-home-container">
+                <div class="home-poster">
+                    <img src="{{url_for('static', filename='images/rush-hour-2.png')}}">
+                </div>
+                <div class="home-text-container">
+                    <div class="movie-title">
+                        <div class="text-bold-78">
+                            RUSH HOUR 2 (2001)
+                        </div>
+                    </div>
+                    <div class="text-light-28" style="font-size: 24px; margin-top: 30px;">
+                        “Chris Tucker is on fire and Jackie Chan is in his prime, you can definitely tell the two of them have a good friendship even off screen and it makes for a better viewing when they're on screen.
+
+<br><br>Normally I find action comedies have fairly so so action set pieces but even after all these years i'm still super impressed with the Bamboo wall action sequence.
+
+<br><br>The only stain on the movie is Brett Ratner who hasn't exactly had the best time since this movie was released.”
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line-section">
+
+        </div>
+        <div class="about">
+            <div class="judul-section" style="margin-left: 0px;">
+                ABOUT
+            </div>
+            <div class="text-about">
+                <div class="text-light-32">
+                    CDFilm’s was a webisite about old movies. CDFilm’s hope that all of you who likes movies can know some films that have a similary with a film that you likes. CDFilm’s can gives you a films recommendation according to films that you already watched and already you rated.
+<br><br>Thank you for you that already used this website. Hope that were aleady gives movie recommendation that good / relevant. Thank you so much.
+                </div>
+            </div>
+            <div class="about-pict">
+                    <img src="{{url_for('static', filename='images/about2.png')}}">
+            </div>
+        </div>
+        <div class="line-section">
+
+        </div>
+        <div class="movies">
+            <div class="judul-section" style="margin-left: 428px;">
+                OUR OLD MOVIE LIST
+            </div>
+            <div class="movie">
+                <div class="movie-list-container">
+                    <div class="list-header">
+                        Title (year)
+                    </div>
+                    <div class="movie-list">
+                        <div class="text-light-28" style="text-align: left; width: 100%;">
+                            Complete Shamanic Princess (1997)<br>
+                            Notre Musique (2004)<br>
+                            Sanford and Son: Season 6 (1976)<br>
+                            The Great Race (1965)<br>
+                            Obsessed (2002)<br>
+                            Stevie Ray Vaughan and Double Trouble: Live at Montreux 1982 & 1985 (2004)<br>
+                            Magnolia: Bonus Material (2000)<br>
+                            Spartan (2004)<br>
+                            No Way Back (1996)<br>
+                            Scandal (1989)<br>
+                            Duplex (Widescreen) (2003)<br>
+                            The Eye of Vichy (1993)<br>
+                            Bruce Lee: A Warrior's Journey (2000)<br>
+                            Dominion Tank Police Part 1 & 2 (1989)<br>
+                            Lord Peter Wimsey: Murder Must Advertise (1973)<br>
+                            Bear Cub (2004)<br>
+                            Silk Stockings (1957)<br>
+                            Rambo: First Blood Part II (1985)<br>
+                            Travel the World by Train: Africa (1999)<br>
+                            Plain Dirty (2004)<br>
+                            Beyonce: Live at Wembley (2003)<br>
+                            Cube 2: Hypercube (2002)<br>
+                            Chain of Fools (2000)<br>
+                            Cold Blooded (2000)<br>
+                            Nighthawks (1981)<br>
+                            Vampire Effect (aka Twins Effect) (2003)<br>
+                            Fatal Beauty (1987)<br>
+                            Mr. Vampire (1985)<br>
+                            Darkwolf (2003)<br>
+                            Drowning on Dry Land (1999)<br>
+                            Arachnid (2002)<br>
+                            Lucio Fulci: The Beyond (1981)<br>
+                            Viva La Bam: Season 1 (2003)<br>
+                            Spirit Lost (1996)<br>
+                            GTO: Great Teacher Onizuka: Set 2 (1998)<br>
+                            Cat and the Canary (1927)<br>
+                            Naked Lies (1998)<br>
+                            Star Trek: Voyager: Season 1 (1995)<br>
+                            Allergies: A Natural Approach (2001)<br>
+                            Lost in the Wild (1993)<br>
+                            Goddess of Mercy (2004)<br>
+                            The Tricky Master (2000)<br>
+                            The Game (1997)<br>
+                            Deepak Chopra: The Way of the Wizard & Alchemy (2000)<br>
+                            Get Out Your Handkerchiefs (1978)<br>
+                            Cannibal Women in the Avocado Jungle of Death (1988)<br>
+                            Where Sleeping Dogs Lie (1992)<br>
+                            Sweet November (2001)<br>
+                            The Edward R. Murrow Collection (2005)<br>
+                            Firetrap (2001)<br>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-list-container">
+                    <div class="list-header">
+                        Title (year)
+                    </div>
+                    <div class="movie-list">
+                        <div class="text-light-28" style="text-align: left; width: 100%;">
+                            Sleepover Nightmare (2005)<br>
+                            A Little Princess (1995)<br>
+                            MTV Yoga (2002)<br>
+                            Demon Warrior Koji (2000)<br>
+                            The Strongest Man in the World (1975)<br>
+                            Husbands and Wives (1992)<br>
+                            Laird: White Knuckle Extreme (2004)<br>
+                            A Killer Within (2004)<br>
+                            Gentlemen of Fortune (1971)<br>
+                            Gormenghast (2000)<br>
+                            Ninotchka (1939)<br>
+                            John Cleese on How to Irritate People (1968)<br>
+                            MTV: Making the Band 2: Best of Season 1 (2002)<br>
+                            One Last Dance (2003)<br>
+                            Richard Pryor: Live on the Sunset Strip (1982)<br>
+                            Fame (1980)<br>
+                            The Chorus (2004)<br>
+                            Smokey and the Bandit Part 3 (1983)<br>
+                            Cartoon Network Halloween: 9 Creepy Cartoon Capers (2004)<br>
+                            Tomorrow (1972)<br>
+                            Funny Face (1957)<br>
+                            Jack (2003)<br>
+                            The Devil's Brigade (1968)<br>
+                            Adam-12: Season 1 (1968)<br>
+                            Reservoir Dogs (1992)<br>
+                            The History Channel Presents: Troy: Unearthing the Legend (2004)<br>
+                            Pressure (2002)<br>
+                            Regular Guys (1996)<br>
+                            Bollywood Bound (2003)<br>
+                            Scratch (2002)<br>
+                            The Last Shot (2004)<br>
+                            Moby: Play (2001)<br>
+                            IFilm: Deranged (2005)<br>
+                            Billy Blanks: Tae Bo: Cardio Circuit 1 (2004)<br>
+                            Missing in Action 2: The Beginning / Missing in Action 3: Braddock (1985)<br>
+                            Panic in the Streets (1950)<br>
+                            Death to Smoochy (2002)<br>
+                            Dead Birds (2005)<br>
+                            Airplane II: The Sequel (1982)<br>
+                            Blood and Sand (1989)<br>
+                            X2: X-Men United (2003)<br>
+                            The SoulTaker (2003)<br>
+                            Marilyn Manson: Fear of a Satanic Planet (2005)<br>
+                            Arliss: The Best of Arliss (1996)<br>
+                            Chasing Freedom (2004)<br>
+                            Peter Tosh: Stepping Razor: Red X (1992)<br>
+                            Taking Lives (2004)<br>
+                            Gupt (1997)<br>
+                            The Deer Hunter (1978)<br>
+                            The Fall of the Roman Empire (1964)<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="next-button">
+                NEXT
+            </div>
+        </div>
+        <div class="line-section">
+
+        </div>
+        <div class="recommendation">
+            <div class="judul-section" style="margin-left: 0px;">
+                RECOMMENDATION
+            </div>
+            <div class="text-med-32" style="margin-top: 10px; width: 910px;">
+                you can input movie’s titles and also ratings for the movie on the list that maybe you already watched.
+            </div>
+            <div class="content-rec-container">
+                <div class="form-container">
+                    <div class="text-med-32">
+                        1st Movie Title
+                    </div>
+                    <div class="field-input-title">
+
+                    </div>
+                    <div class="text-med-32">
+                        1st Rating
+                    </div>
+                    <div class="field-input-rating">
+
+                    </div>
+                    <div class="text-med-32">
+                        2nd Movie Title
+                    </div>
+                    <div class="field-input-title">
+
+                    </div>
+                    <div class="text-med-32">
+                        2nd Rating
+                    </div>
+                    <div class="field-input-rating">
+
+                    </div>
+                    <div class="text-med-32">
+                        3rd Movie Title
+                    </div>
+                    <div class="field-input-title">
+
+                    </div>
+                    <div class="text-med-32">
+                        3rd Rating
+                    </div>
+                    <div class="field-input-rating">
+
+                    </div>
+                    <div class="text-med-32">
+                        4th Movie Title
+                    </div>
+                    <div class="field-input-title">
+
+                    </div>
+                    <div class="text-med-32">
+                        4th Rating
+                    </div>
+                    <div class="field-input-rating">
+
+                    </div>
+                    <div class="text-med-32">
+                        5th Movie Title
+                    </div>
+                    <div class="field-input-title">
+
+                    </div>
+                    <div class="text-med-32">
+                        5th Rating
+                    </div>
+                    <div class="field-input-rating">
+
+                    </div>
+                </div>
+                <div class="poster-container">
+                    <div class="container-kiri">
+                        <div class="poster">
+                            <img src="{{url_for('static', filename='images/taxi.png')}}">
+                        </div>
+                        <div class="poster" style="margin-top: 30px;">
+                            <img src="{{url_for('static', filename='images/gross-anatomy.png')}}">
+                        </div>
+                    </div>
+                    <div class="container-kanan">
+                        <div class="poster" style="margin-top: 95px;">
+                            <img src="{{url_for('static', filename='images/forrest-gump.png')}}">
+                        </div>
+                        <div class="poster" style="margin-top: 30px;">
+                            <img src="{{url_for('static', filename='images/crossroads.png')}}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rec-button" style="margin-left: 484px;">
+                GET RECOMMENDATION
+            </div>
+        </div>
+        <div class="line-section">
+
+        </div>
+        <div class="footer">
+            <div class="logo-footer">
+                <img src="{{url_for('static', filename='images/logo-footer.png')}}">
+            </div>
+            <div class="text-med-32" style="font-size: 25px; text-align: center; width: 689px;">
+                CDFilm provides movie recommendations that are just right for you. Experience something different.
+            </div>
+            <div class="sosmed-logo-container">
+                <div class="sosmed-footer">
+                    <img src="{{url_for('static', filename='images/instagram.png')}}">
+                </div>
+                <div class="sosmed-footer">
+                    <img src="{{url_for('static', filename='images/facebook.png')}}">
+                </div>
+                <div class="sosmed-footer">
+                    <img src="{{url_for('static', filename='images/call.png')}}">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
